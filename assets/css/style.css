@@ -12,12 +12,16 @@ h1{
 
 .tamanioTarjeta {
 
-    width: 50%;
+    width: 1000px;
+    background-color: rgb(201, 245, 150);
+    justify-content: center;
+    text-align: center;
 
 }
 
 .tarjeta img{
-    width: 100%;
+    justify-content: center;
+    width: 500px;
     
 }
 
