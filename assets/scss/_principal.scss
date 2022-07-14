@@ -1,0 +1,141 @@
+
+.tamanioTarjeta {
+
+    list-style: none;
+  background-color: rgb(201, 245, 150);
+  justify-content: center;
+  text-align: center;
+
+}
+
+.tarjeta img{
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  
+}
+
+.caja{
+   
+    width: 505px;
+   padding-top: 20px;
+    padding: 10px;
+    padding-right: 1021px;
+ /* padding-top: 10px;*/
+    border-color: rgb(160, 76, 76);
+    display: flex;
+    background-color: rgb(255, 165, 237);
+
+}
+
+.cajalista{
+    background-color: rgb(214, 244, 105);
+}
+
+
+  
+.tarjetainfo{
+
+    text-align: center;
+    display: block;
+    background-color: rgb(168, 255, 127);
+    
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(138, 236, 154);
+
+}
+
+.tarjeta__titulo{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tarjeta__text{
+    width: 380px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: end;
+    display: flex
+    
+}
+
+
+.tarjeta__img{
+    padding: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    width: 420px;
+}
+
+
+.hijo{
+    height: 450px;
+
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.pp{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.padre{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(230, 250, 151);
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: (4,1fr);
+    row-gap: 15px;
+    column-gap: 15px;   
+    grid-template-rows: 100px auto 1000px 50px;
+    grid-template-areas: "header header header header"
+                         "nav nav nav nav"
+                         "main main main main"
+                        
+                         "footer footer footer footer";
+}
+
+
+.principal{
+    grid-area: main;
+    height: 60px;
+    background-color: rgb(255, 165, 237);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around
+}
+
+
+.imganima:hover{
+    transform: translate(10px, 10px );
+   
+
+}
